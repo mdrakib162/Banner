@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+}
+
+#banner{
+    padding: 150px;
+    height: 70vh;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner-content{
+    width: 50%;
+    float: left;
+    margin-top: 150px;
+}
+
+.banner-content div{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.banner-content div.hlo{
+    font-weight: 200;
+}
+
+.banner-content div.js{
+    color: red;
+    margin-top: 45px;
+}
+    /* -----------First section start---------- */
+.banner-content p{
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+.btn{
+    display: flex;
+    margin-top: 20px;
+}
+
+.btn button{
+    border-radius: 5px;
+    background-color: tomato;
+    padding: 10px 28px;
+    color: whitesmoke;
+    border: 1px solid tomato;       
+    font-size: 18px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.btn button:hover{
+    background-color: white;
+    border: 1px sold darkblue;
+    color: rgb(214, 19, 19);
+    cursor: pointer;
+}
+
+.banner-img{
+    width: 50%;
+    float: left;   
+}
+
+.banner-img img{
+    width: 100%;
+}
+    /* ---------1_END---------- */
+    /* ------Second section start------- */
+#biography{
+    padding: 100px;
+    height: 80vh;
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#biography .banner-content{
+    margin-top: 90px;
+}
+
+#biography .banner-img img{
+    width: 80%;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+    /* ---------2_END--------- */
+    /* ----------Third section start---------- */
+#work{
+    padding: 100px;
+    height: 50vh;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.work{
+    width: 33.3%;
+    float: left;
+    margin-top: 60px;
+}
+
+.head{
+    justify-content: center;
+    display: flex;
+}
+
+.work img{
+    width: 90%;
+    cursor: pointer;
+}
+    /* --------3_END------- */
+    /* ---------Fourth section start------- */
+#footer{
+    padding: 100px;
+    height: 80vh;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#footer div{
+    text-align: center;
+}
+
+#footer .btn{
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#footer .btn button{
+    font-size: 12px;
+    padding: 10px 120px;
+}
+
+.p_1{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.p_2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.p_3{
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.end{
+    margin-top: 150px;
+}
+    /* --------4_END------- */
